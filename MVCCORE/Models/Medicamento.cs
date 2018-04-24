@@ -30,5 +30,6 @@ namespace MVCCORE.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0;yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime fecha_Ingreso { get; set; }
+        public int numero { get; set; }
     }
 }
